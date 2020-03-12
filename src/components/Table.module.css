@@ -1,0 +1,16 @@
+.Container {
+  width: 100%;
+}
+
+.Container table {
+  width: 80%;
+  margin: auto;
+}
+
+.ButtonDelete {
+  background: #d40c0c;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
