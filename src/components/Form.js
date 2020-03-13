@@ -20,7 +20,7 @@ const Form = props => {
   const onEmailChange = e => {
     let inputValue = e.target.value
     setEmail(inputValue)
-    let isValid = /[a-zA-Z0-9.]+\@[a-zA-Z]+\.[a-zA-Z]/.test(inputValue)
+    let isValid = /[a-zA-Z0-9.]+@[a-zA-Z]+\.[a-zA-Z]/.test(inputValue)
     let isUsed = props.data.some(el => el.email === inputValue)
     setIsEmailValid(prev => ({
       isValid,
